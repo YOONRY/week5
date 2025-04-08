@@ -13,6 +13,9 @@ LED는 1초 간격으로 ON/OFF되며 이진수 표현을 실시간으로 확인
 
 ![GPIO 핀맵](https://github.com/user-attachments/assets/00bb9e03-d8e6-4c5c-a78d-e17f3f1330b0)
 
+![image](https://github.com/user-attachments/assets/c77fece4-e837-44b4-b658-a3e1836e388e)
+
+
 > 참고: 사진에는 GPIO 7번 핀이 연결되어 있지만, 스크립트에서는 사용되지 않습니다.
 
 ---
