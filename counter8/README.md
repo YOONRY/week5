@@ -2,10 +2,10 @@
 
 ## 📘 Bit Counter – Raspberry Pi
 
-이 Bash 스크립트는 라즈베리파이의 GPIO 핀을 사용해 **0부터 7까지 이진수로 카운팅**하며, 각 비트 값을 3개의 LED로 시각적으로 표현합니다.  
+이 Bash 스크립트는 라즈베리파이의 GPIO 핀을 사용해 **0부터 7까지 이진수로 카운팅**하며 각 비트 값을 3개의 LED로 시각적으로 표현합니다.  
 LED는 1초 간격으로 ON/OFF되며 이진수 표현을 실시간으로 확인할 수 있습니다.
 
-🎬 **시연 영상**: [YouTube에서 보기](https://youtu.be/aRUmTOn6Csc)
+🎬 **시연 영상**  [YouTube에서 보기](https://youtu.be/aRUmTOn6Csc)
 
 ---
 
