@@ -6,7 +6,7 @@
 **LED 4개를 도미노처럼 순차적으로 점등**하는 간단한 GPIO 제어 예제입니다.  
 각 LED는 1초 간격으로 켜졌다가 꺼지며, 이 동작이 반복되어 시각적으로 흐르는 듯한 LED 효과를 보여줍니다.
 
-🎬 **시연 영상**: [YouTube에서 보기](https://youtu.be/GSWM3ugUTAc)
+🎬 **시연 영상** [YouTube에서 보기](https://youtu.be/GSWM3ugUTAc)
 
 ---
 
