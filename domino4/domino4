@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+
+
+# 초기 설정: 출력 모드 설정 + 초기값 Low
+for a in {4..7}; do
+    pinctrl set $a op
+    pinctrl set $a dl
+done
+
+while true; do
+    for p in {4..7}; do
+        pinctrl set $p dh
+        sleep 1
+        pinctrl set $p dl
+    done
+done

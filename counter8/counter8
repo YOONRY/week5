@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+
+# 사용할 핀 번호 (3비트용이면 3개만)
+PINS=(4 5 6)
+
+# 초기 설정: 출력 모드 설정 + 초기값 Low
+for p in "${PINS[@]}"; do
+    pinctrl set $p op
+    pinctrl set $p dl
+done
+
+# 0부터 7까지 카운트 → LED로 이진수 출력
+while true; do
+    for ((i=0; i<8; i++)); do
+        for ((bit=0; bit<3; bit++)); do
+            gpio_num=${PINS[$bit]}
+            bit_val=$(( (i >> bit) & 1 ))  # LSB부터
+            if [ "$bit_val" -eq 1 ]; then
+                pinctrl set $gpio_num dh
+            else
+                pinctrl set $gpio_num dl
+            fi
+        done
+        sleep 1
+    done
+done
